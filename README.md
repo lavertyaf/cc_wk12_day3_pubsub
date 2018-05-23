@@ -113,6 +113,7 @@ DispatchEvent is what sends out the info across the app that we have just create
       Update the app.js
       Before we send out the data, call method
       instrumentFamiliesModel.setUpListenerForUserChoice
+      selectView.setUpListenerForUserChoice
 
   Step 8.
       New method in instrument_families to send object to model
