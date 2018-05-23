@@ -11,6 +11,7 @@ Think about what views you will have based on the info given
   Model - InstrumentFamilies
   
 What should be in your HTML file?
+
   Title as this won't change
   Hardcode the options of the dropdown?
   Somewhere to hold the dynamic info - container?
