@@ -58,7 +58,7 @@ DispatchEvent is what sends out the info across the app that we have just create
       In app.js we will call the functions we require in InstrumentFamilies, selectView
 
       Document.addEventListener('DOMContentLoaded'() => {
-      const SelectView():
+      const selectView = new SelectView();
       selectView.receiveData();
       (This happens first, so our listener is ready)
       **these are added later as they are written**
