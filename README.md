@@ -129,7 +129,7 @@ DispatchEvent is what sends out the info across the app that we have just create
       constuctor
       const InstumentFamilyInfoView = function ()
 
-      InstumentFamilyInfoView.prototype.setUpListenerForSelectedObject = function ()
+      InstumentFamilyInfoView.prototype.setUpListenerForSelectedObject = function () {
       PubSub.subscribe('InstumentFamilies:send-family, (event) => {
       console.log('coming from view', event.detail) (this is later changed to:)
       const familyObject = event.detail (from step 10.)
