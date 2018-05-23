@@ -34,7 +34,7 @@ DispatchEvent is what sends out the info across the app that we have just create
       (You need to require PubSub at the top of the page)
 
   Step 2.
-      Create a new view in the views folder: select_view
+      Create a new views folder in SRC, create a new view in the views folder: select_view
 
       use the constructor to create a new selectView
 
